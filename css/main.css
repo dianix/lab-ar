@@ -1,4 +1,68 @@
-html, body {
-    height: 100px;
-    background-color: #f48400;
+html,
+body {
+    height: 100%;
+    background-color: #ffc400;
+    font-family: 'icomoon', sans-serif;
+}
+
+.blanco {
+    color: #fff;
+}
+
+.naranja {
+    background-color: #ffc400;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.separador {
+    display: inline-block;
+    width: 100%;
+    padding: 3em;
+    border-bottom: .15em solid #fff;
+}
+
+nav {
+    height: 6em;
+}
+
+#inicio {
+    height: 100%;
+    background-image: url(../img/taxi1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#inicio div div {
+    margin-top: 11%;
+    padding: 5%;
+}
+
+#inicio div div div {
+    margin: 0;
+    padding: 1% 0;
+}
+
+#descarga {
+    height: 80%;
+}
+
+#conduce {
+    height: 70%;
+    background-image: url(../img/conduce.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#tarifas {
+    height: 90%;
+}
+
+footer {
+    height: 100%;
+    background-color: #3b3b3b;
 }
