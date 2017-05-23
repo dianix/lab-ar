@@ -20,8 +20,10 @@ nav {
     height: 5em;
 }
 
-#inic-sesion {
-    background-color: #00c1c1;
+#boton-n {
+    background-color: #070707;
+    color: #fff;
+    width: 80%;
 }
 
 #inicio {
