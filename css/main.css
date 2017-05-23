@@ -50,6 +50,23 @@ nav {
     height: 80%;
 }
 
+#descarga img {
+    width: 80%;
+}
+
+.contenedor-linea {
+    margin-top: 5%;
+    border: .1em solid #fff;
+}
+
+.contenedor-linea div {
+    padding: 1% 5%;
+}
+
+.contenedor-linea p {
+    font-size: 1.4em;
+}
+
 #conduce {
     height: 70%;
     background-image: url(../img/conduce.jpg);
