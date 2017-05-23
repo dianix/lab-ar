@@ -16,16 +16,16 @@ body {
     background-color: #ffc400;
 }
 
-.m-0 {
-    margin: 0;
-}
-
 nav {
     height: 5em;
 }
 
+#inic-sesion {
+    background-color: #00c1c1;
+}
+
 #inicio {
-    padding: 11% 0 5%;
+    padding: 10% 0 5%;
     background-image: url(../img/taxi1.jpg);
     background-size: cover;
     background-position: center;
@@ -98,7 +98,7 @@ nav {
 }
 
 footer {
-    padding: 5vw 5vw 0;
+    padding: 2vw 5vw 0;
     background-color: #3b3b3b;
 }
 
@@ -119,10 +119,12 @@ footer a {
     padding-top: 24vw;
 }
 
-#enlaces-1 a,  #enlaces-oculto a {
+#enlaces-1 a,
+#enlaces-oculto a {
     margin-left: 1em;
 }
 
+#frase-oculta,
 #enlaces-oculto {
     display: none;
 }
@@ -136,6 +138,9 @@ footer a {
 }
 
 @media (min-width:0px) and (max-width:768px) {
+    #inicio {
+        padding: 1% 0 5%;
+    }
     #inicio-2,
     #texto-descarga {
         display: none;
@@ -146,14 +151,15 @@ footer a {
     #descarga img {
         height: 80%;
     }
-    #enlaces-1,#enlaces-3 {
+    #enlaces-1,
+    #enlaces-3 {
         display: none;
     }
-    
-    #enlaces-1, #enlaces-4 {
+    #enlaces-1,
+    #enlaces-4 {
         padding: 0;
     }
-    
+    #frase-oculta,
     #enlaces-oculto {
         display: inline-block;
     }
