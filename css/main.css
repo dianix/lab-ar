@@ -5,6 +5,10 @@ body {
     font-family: 'icomoon', sans-serif;
 }
 
+.alto {
+    height: 100%;
+}
+
 .blanco {
     color: #fff;
 }
@@ -18,14 +22,14 @@ body {
 }
 
 .separador {
-    display: inline-block;
+    display: inline;
     width: 100%;
-    padding: 3em;
+    padding: 5%;
     border-bottom: .15em solid #fff;
 }
 
 nav {
-    height: 6em;
+    height: 5em;
 }
 
 #inicio {
@@ -37,7 +41,7 @@ nav {
 }
 
 #inicio div div {
-    margin-top: 11%;
+    margin-top: 10%;
     padding: 5%;
 }
 
@@ -47,7 +51,7 @@ nav {
 }
 
 #descarga {
-    height: 80%;
+    height: 75%;
 }
 
 #descarga img {
@@ -55,7 +59,7 @@ nav {
 }
 
 .contenedor-linea {
-    margin-top: 5%;
+    margin-top: 3%;
     border: .1em solid #fff;
 }
 
@@ -75,6 +79,11 @@ nav {
     background-repeat: no-repeat;
 }
 
+#conduce div div {
+    background-color: rgba(0, 0, 0, 0.71);
+    padding: 5em 3em 0;
+}
+
 #tarifas {
     height: 90%;
 }
@@ -82,4 +91,17 @@ nav {
 footer {
     height: 100%;
     background-color: #3b3b3b;
+}
+
+@media (min-width:0px) and (max-width:768px) {
+    #inicio-2,
+    #texto-descarga {
+        display: none;
+    }
+    #inicio div div {
+        margin-top: 30%;
+    }
+    #descarga img {
+        height: 80%;
+    }
 }
