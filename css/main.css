@@ -20,10 +20,6 @@ body {
     margin: 0;
 }
 
-.separador {
-    border-bottom: .12em solid rgba(255, 255, 255, 0.76);  
-}
-
 nav {
     height: 5em;
 }
@@ -82,7 +78,8 @@ nav {
     padding: 5%;
 }
 
-#tarifas-1, #tarifas-2 {
+#tarifas-1,
+#tarifas-2 {
     padding: 5vw;
 }
 
@@ -101,27 +98,38 @@ nav {
 }
 
 footer {
-    height: 100%;
-    padding: 5vw;
+    padding: 5vw 5vw 0;
     background-color: #3b3b3b;
+}
+
+.separador {
+    border-bottom: .12em solid rgba(255, 255, 255, 0.65);
 }
 
 footer div div {
     padding: 2vw 0;
 }
 
-footer ul li {
+footer a {
     line-height: 3em;
+    color: #fff;
 }
 
-#tiendas img {
-    margin: 1em;
+#enlaces-1 {
+    padding-top: 24vw;
 }
 
-#tiendas img:first-child {
-    margin-top: 65%;
+#enlaces-1 a {
+    margin-left: 1em;
 }
 
+#enlaces-4 {
+    padding-top: 14.5vw;
+}
+
+#enlaces-4 img {
+    margin-top: 1em;
+}
 
 @media (min-width:0px) and (max-width:768px) {
     #inicio-2,
@@ -134,8 +142,12 @@ footer ul li {
     #descarga img {
         height: 80%;
     }
+    #enlaces-3 {
+        display: none;
+    }
+    
+    #
 }
-
 
 @media (min-width:769px) and (max-width:980px) {
     #descarga img {
