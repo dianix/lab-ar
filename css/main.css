@@ -1,7 +1,6 @@
 html,
 body {
     height: 100%;
-    background-color: #ffc400;
     font-family: 'icomoon', sans-serif;
 }
 
@@ -22,10 +21,7 @@ body {
 }
 
 .separador {
-    display: inline;
-    width: 100%;
-    padding: 5%;
-    border-bottom: .15em solid #fff;
+    border-bottom: .12em solid rgba(255, 255, 255, 0.76);  
 }
 
 nav {
@@ -33,7 +29,7 @@ nav {
 }
 
 #inicio {
-    height: 100%;
+    padding: 11% 0 5%;
     background-image: url(../img/taxi1.jpg);
     background-size: cover;
     background-position: center;
@@ -41,8 +37,7 @@ nav {
 }
 
 #inicio div div {
-    margin-top: 10%;
-    padding: 5%;
+    padding: 4%;
 }
 
 #inicio div div div {
@@ -51,7 +46,7 @@ nav {
 }
 
 #descarga {
-    height: 75%;
+    padding: 5% 0;
 }
 
 #descarga img {
@@ -59,7 +54,6 @@ nav {
 }
 
 .contenedor-linea {
-    margin-top: 3%;
     border: .1em solid #fff;
 }
 
@@ -85,13 +79,49 @@ nav {
 }
 
 #tarifas {
-    height: 90%;
+    padding: 5%;
+}
+
+#tarifas-1, #tarifas-2 {
+    padding: 5vw;
+}
+
+#tarifas-2 img {
+    padding: 1.5vw;
+    width: 100%;
+    border: .12vw solid #fff;
+}
+
+#tarifas input {
+    background-color: rgba(255, 255, 255, 0);
+    border: .12em solid #fff;
+    height: 3em;
+    color: #fff;
+    font-size: 1.2em;
 }
 
 footer {
     height: 100%;
+    padding: 5vw;
     background-color: #3b3b3b;
 }
+
+footer div div {
+    padding: 2vw 0;
+}
+
+footer ul li {
+    line-height: 3em;
+}
+
+#tiendas img {
+    margin: 1em;
+}
+
+#tiendas img:first-child {
+    margin-top: 65%;
+}
+
 
 @media (min-width:0px) and (max-width:768px) {
     #inicio-2,
@@ -103,5 +133,12 @@ footer {
     }
     #descarga img {
         height: 80%;
+    }
+}
+
+
+@media (min-width:769px) and (max-width:980px) {
+    #descarga img {
+        width: 50%;
     }
 }
