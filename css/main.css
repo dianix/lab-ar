@@ -119,8 +119,12 @@ footer a {
     padding-top: 24vw;
 }
 
-#enlaces-1 a {
+#enlaces-1 a,  #enlaces-oculto a {
     margin-left: 1em;
+}
+
+#enlaces-oculto {
+    display: none;
 }
 
 #enlaces-4 {
@@ -142,11 +146,17 @@ footer a {
     #descarga img {
         height: 80%;
     }
-    #enlaces-3 {
+    #enlaces-1,#enlaces-3 {
         display: none;
     }
     
-    #
+    #enlaces-1, #enlaces-4 {
+        padding: 0;
+    }
+    
+    #enlaces-oculto {
+        display: inline-block;
+    }
 }
 
 @media (min-width:769px) and (max-width:980px) {
