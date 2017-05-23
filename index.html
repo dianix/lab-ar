@@ -30,12 +30,53 @@
                     <ul class="nav navbar-nav">
                         <li><a href="#viaja">Viaja</a></li>
                         <li><a href="#conduce">Conduce</a></li>
-                        <li><a href="#">Inicia sesión</a></li>
+                        <li><a data-toggle="modal" data-target="#myModal" href="#!">Inicia sesión</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center">
+                        <img src="img/person-girl.png" />
+                    </div>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="usuario" class="col-sm-2 control-label"><i class="fa fa-user-circle-o" aria-hidden="true"></i></label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="usuario" placeholder="Username">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contrasena" class="col-sm-2 control-label"><i class="fa fa-lock" aria-hidden="true"></i></label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="contrasena" placeholder="Password">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10 text-center">
+                                <button type="submit" class="btn btn-success"><strong>LOGIN</strong></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <p>Forgot your password? &nbsp;<a href="#!">Click here</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MODAL -->
 
     <section id="inicio" class="container-fluid">
         <div class="row flex vert-align ">
@@ -63,7 +104,8 @@
         <div class="row">
             <div class="col-md-10 blanco contenedor-linea">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 text-center">
+                        <h2 id="frase-oculta">La nueva app</h2>
                         <img src="img/iPhone6Plus.png" />
                     </div>
                     <div id="texto-descarga" class="col-md-6 vcenter">
@@ -104,13 +146,13 @@
                     <div class="form-group">
                         <label for="partida" class="col-sm-2 control-label"><img src="img/shape.png"/></label>
                         <div class="col-sm-10">
-                            <input type="email" class="form-control" id="partida" placeholder="Ingresa tu punto de partida">
+                            <input type="text" class="form-control" id="partida" placeholder="Ingresa tu punto de partida">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputPassword3" class="col-sm-2 control-label"><img src="img/shape2.png"/></label>
+                        <label for="destino" class="col-sm-2 control-label"><img src="img/shape2.png"/></label>
                         <div class="col-sm-10">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="Ingresa tu destino">
+                            <input type="text" class="form-control" id="destino" placeholder="Ingresa tu destino">
                         </div>
                     </div>
 
@@ -166,7 +208,7 @@
                         <li><a target="_blank" href="http://laboratoria.la/">Coders</a></li>
                     </ul>
                 </div>
-                 <div id="enlaces-oculto" class="col-xs-6">
+                <div id="enlaces-oculto" class="col-xs-6">
                     <a target="_blank" href="https://www.facebook.com/anaidxd"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     <a target="_blank" href="https://twitter.com/?lang=es"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                     <a target="_blank" href="https://mx.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
