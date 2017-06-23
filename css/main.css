@@ -20,13 +20,15 @@ nav {
     height: 5em;
 }
 
-
 #inicio {
-    padding: 10% 0 5%;
     background-image: url(../img/taxi1.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    padding: 10% 0 5%;
+}
+
+#inicio>div.row, #descarga>div.row {
+    width: 100%;    
 }
 
 #inicio div div {
